@@ -7,4 +7,7 @@
                  [clojure-csv "2.0.0-alpha2"]]
   :main ^:skip-aot sumap-distances.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {
+    :dev {:dependencies [
+      [com.cemerick/pomegranate "0.3.0"]]}
+    :uberjar {:aot :all}})
