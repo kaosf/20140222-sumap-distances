@@ -1,36 +1,24 @@
 # sumap-distances
 
-FIXME: description
+A project for [Open Data Hackathon](https://www.facebook.com/events/1414087215497634/).
 
-## Installation
+## Contributers
 
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar sumap-distances-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+* Ama
+* cookie
+* Etsushi Iki
+* ka
+* Noripon
+* yukasyu
 
 ## License
 
-Copyright © 2014 FIXME
+### `inputdata.csv` and `no-lat-lon.csv`
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+<a href="http://creativecommons.jp/">Creative Commons</a><a href="http://creativecommons.org/licenses/by/2.1/jp/"><img title="Creative Commons License" src="http://www.opendata-tokushima.com/img/by.png" height="20" alt="Creative Commons License" width="55" /></a>
+
+### Others
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright 2014 ka
