@@ -8,7 +8,7 @@
 
 (def addresses
   (->
-    (slurp "inputdata.csv")
+    (slurp "no-lat-lon.csv")
     parse-csv
     ;rest
     vec))
