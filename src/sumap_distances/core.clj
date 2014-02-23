@@ -24,6 +24,11 @@
         [_ _ _ _ _ lat lon] (split ((split body #"\r\n") 1) #"\t")]
     [lat lon]))
 
+(def lat-lon
+  (map (fn [[id x]]
+         (vec (cons id (retrieve-lat-lon x))))
+       (rest addresses)))
+
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
